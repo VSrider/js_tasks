@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="extern/css/ag-grid.css">
+    <link rel="stylesheet" href="extern/css/ag-theme-alpine.css">
+    <link rel="stylesheet" href="extern/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/task5.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="repo-table" class="ag-theme-alpine"></div>
+        <ul class="list-group"></ul>
+    </div>
+    <div 
+        class="modal" 
+        id="repo-count-dialog" 
+        role="dialog"
+    >
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Количество репозиториев на странице</h5>
+                </div>
+                <div class="modal-body">
+                    <input type="number" id="pageSize">
+                </div>
+                <div class="modal-footer">
+                    <button id="acceptGridPageSize" type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="extern/js/jquery-3.5.1.min.js"></script>
+    <script src="extern/js/popper.min.js"></script>
+    <script src="extern/js/bootstrap.min.js"></script>
+    <script src="extern/js/ag-grid-community.min.noStyle.js"></script>
+    <script src="scripts/task5.js"></script>
+</body>
+</html>

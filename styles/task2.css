@@ -1,0 +1,105 @@
+/*Документ*/
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: url(../images/background.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*Переопределение стилей Bootstrap*/
+.form-control {
+    background-color: rgba(194, 194, 194, 0.363);
+    border-radius: 15px 15px;
+    padding-left: 15px;
+}
+
+/*Переопределение стиля кнопки*/
+.btn {
+    border-radius: 20px;
+}
+
+.btn-primary {
+    background-color: rgba(155, 0, 59, 0.795);
+    border-color: rgba(255, 0, 212, 0.486);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: rgba(212, 1, 19, 0.705);
+    border-color: rgba(255, 0, 212, 0.486);
+}
+
+/*Переопределение стилей контролов*/
+.form-control:active, 
+.form-control:focus {
+    outline: transparent;
+    box-shadow: transparent;
+}
+
+/*Переопределение группы формы*/
+.form-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ui-pg-input {
+    padding-left: 10px;
+}
+
+.datepicker {
+    padding: 13px;
+    border-radius: 13px;
+}
+
+/*Обертка*/
+.wrapper {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+/*Блок формы*/
+.user-form-blk {
+    margin: 10px;
+    padding: 10px 20px;
+    width: 380px;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.38);
+    border-radius: 25px;
+}
+
+/*Заголовок формы*/
+.user-form-title {
+    margin: auto;
+    text-align: center;
+}
+
+/*Блок сообщений*/
+.form-error-message {
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: rgba(206, 2, 2, 0.5);
+    color: white;
+    border-radius: 10px;
+}
+
+.user-table-blk {
+    margin: 10px;
+    padding: 30px 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.38);
+    border-radius: 25px;
+}
+
+.hidden {
+    display: none;
+}
